@@ -15,7 +15,7 @@ const HomePosts = () => {
             import(`../Markdown/pinned${filepath.slice(1,)}`)
                 .then(res => {
                     console.log(res)
-                    fetch(res.default).then(res => res.text()).then(res => metadataParser(res)).then(res => setTest(test => [...test, res]))
+                    fetch(res.default).then(res => console.log(res)).then(res => res.text()).then(res => metadataParser(res)).then(res => setTest(test => [...test, res]))
                 }).catch(err => console.log(err))
         })
 
