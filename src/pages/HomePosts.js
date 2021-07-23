@@ -7,14 +7,14 @@ const HomePosts = () => {
     const MarkdownContext = require.context('../Markdown/pinned', false, /\.md$/);
     const file_paths = MarkdownContext.keys().reverse()
     const [test, setTest] = useState([])
-    // console.log(file_paths)
+    console.log(file_paths)
     useEffect(async () => {
         setTest([])
         await file_paths.map(filepath => {
             // console.log(filepath.slice(2,))
             import(`../Markdown/pinned${filepath.slice(1,)}`)
                 .then(res => {
-                    // console.log(res)
+                    console.log(res)
                     fetch(res.default).then(res => res.text()).then(res => metadataParser(res)).then(res => setTest(test => [...test, res]))
                 }).catch(err => console.log(err))
         })

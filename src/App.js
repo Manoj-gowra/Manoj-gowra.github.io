@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Link, Route, Switch } from 'react-router-dom'
+import { HashRouter, Link, Route, Switch } from 'react-router-dom'
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
@@ -11,7 +11,7 @@ import Projects from './pages/Projects'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <div className="container" id="whole">
           <div className="row">
             <div className="col-md-2 ">
@@ -49,7 +49,7 @@ function App() {
             </div>
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div >
   );
 }
