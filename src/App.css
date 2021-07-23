@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  margin-top: 1rem;
+
+}
+
+
+#image {
+  margin:7px;
+}
+
+#carding {
+  margin: 20px 0 20px 0;
+}
+
+.post-card {
+  margin:20px 0 20px 0;
+}
+
+.button-side {
+  background-color: white;
+  border: none;
+}
+
+.button-side:hover {
+  background-color:beige;
+  padding: 2px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+#items {
+  margin:20px;
+}
+
+.post-title {
+  text-decoration: none;
+}
+
+.post-ext {
+  text-decoration: none;
+  color: gray;
+}
+
+.nav-link {
+  color:gray;
+}
+
+.project-title h3 {
+    color: #258cdb;
+}
+
+@media (min-width:992px) {
+  .sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  padding-top: 1em;
+}
+
+  
+}
+
+@media (max-width:768px){
+#items {
+    display: inherit;
+    overflow: hidden;
+    overflow-x: scroll;
+    
+  }
+}
+
