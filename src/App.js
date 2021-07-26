@@ -43,7 +43,7 @@ function App() {
                 <Route path="/About" exact component={About}></Route>
                 <Route path="/Contact" exact component={Contact}></Route>
                 <Route path="/Projects" exact component={Projects}></Route>
-                <Route exact path="/Post/:id" render={props => <Post{...props} />} />
+                <Route exact path="/Post/int:id" render={props => <Post{...props} />} />
                 <Route component={Error}></Route>
               </Switch>
             </div>
