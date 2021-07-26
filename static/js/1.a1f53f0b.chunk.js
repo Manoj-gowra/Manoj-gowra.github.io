@@ -1,2 +1,0 @@
-(this["webpackJsonpmy-website"]=this["webpackJsonpmy-website"]||[]).push([[1],{107:function(t,s,e){"use strict";e.r(s),s.default=e.p+"static/media/contact.26d1c5bb.md"}}]);
-//# sourceMappingURL=1.a1f53f0b.chunk.js.map
