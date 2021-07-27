@@ -16,11 +16,11 @@ const About = () => {
     // console.log(result)
 
     return (
-        <div>
-            <h2>About</h2>
+        <div>{result ? <><h2>About</h2>
             <div className="container">
-                <ReactMarkdown rehypePlugins={[rehypeRaw]} children={result.content} />
-            </div>
+                <ReactMarkdown rehypePlugins={[rehypeRaw]} children={result.content.replace('<!---more--->', '')} />
+            </div></> : <>loading...</>}
+
         </div>
     )
 }

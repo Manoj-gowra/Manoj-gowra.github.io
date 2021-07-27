@@ -28,7 +28,7 @@ const HomePosts = () => {
                     test.map((post, key) => (<div className="card" id="carding" key={key}>
                         <div><Link to={`/Post/${post.metadata.id}`} className="post-title"><h2 className="card-header">{post.metadata.title}</h2></Link></div>
                         <div className="card-body">
-                            <p className="card-text"><ReactMarkdown escapeHtml={false} children={post.content.split('<!---more--->')[0]} /></p>
+                            <p className="card-text"><ReactMarkdown children={post.content.split('<!---more--->')[0]} /></p>
                             <Link to={`/Post/${post.metadata.id}`} className="post-ext">Read More</Link>
                         </div>
                     </div>))

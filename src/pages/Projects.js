@@ -26,10 +26,10 @@ const Projects = () => {
             <div>
                 {
                     test.map((post, key) => (<div className="card" id="carding" key={key}>
-                        <div><Link to={`/Post/${post.metadata.id}`} className="post-title"><h3 className="card-header">{post.metadata.title}</h3></Link></div>
+                        <div><Link to={`/Post/${post.metadata.title}`} className="post-title"><h3 className="card-header">{post.metadata.title}</h3></Link></div>
                         <div className="card-body">
                             <p className="card-text"><ReactMarkdown escapeHtml={false} children={post.content.split('<!---more--->')[0]} /></p>
-                            <Link to={`/Post/${post.metadata.id}`} className="post-ext">Read More</Link>
+                            <Link to={`/Post/${post.metadata.title}`} className="post-ext">Read More</Link>
                         </div>
                     </div>))
                 }
