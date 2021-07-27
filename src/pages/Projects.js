@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import metadataParser from 'markdown-yaml-metadata-parser'
 import { Link } from 'react-router-dom';
+import Markdown from 'react-markdown';
 
 const Projects = () => {
     const MarkdownContext = require.context('../Markdown', false, /\.md$/);
@@ -27,7 +28,7 @@ const Projects = () => {
                     test.map((post, key) => (<div className="card" id="carding" key={key}>
                         <div><Link to={`/Post/${post.metadata.id}`} className="post-title"><h3 className="card-header">{post.metadata.title}</h3></Link></div>
                         <div className="card-body">
-                            <p className="card-text"><ReactMarkdown children={post.content.split('<!---more--->')[0]} /></p>
+                            <p className="card-text"><ReactMarkdown escapeHtml={false} children={post.content.split('<!---more--->')[0]} /></p>
                             <Link to={`/Post/${post.metadata.id}`} className="post-ext">Read More</Link>
                         </div>
                     </div>))

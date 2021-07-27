@@ -1,7 +1,8 @@
 
 import metadataParser from 'markdown-yaml-metadata-parser'
 import React, { useEffect, useState } from 'react'
-import ReactMarkdown from 'react-markdown'
+import Markdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
 
 const Contact = () => {
     const [result, setAbout] = useState('')
@@ -19,7 +20,7 @@ const Contact = () => {
         <div>
             <h2>Contact</h2>
             <div className="container">
-                <ReactMarkdown children={result.content} />
+                <Markdown rehypePlugins={[rehypeRaw]} children={result.content} escapeHtml={false} />
             </div>
         </div>
     )
