@@ -15,7 +15,7 @@ const HomePosts = () => {
             import(`../Markdown/pinned${filepath.slice(1,)}`)
                 .then(res => {
                     // console.log(res.default.split('/').slice(-1)[0])
-                    fetch(`https://raw.githubusercontent.com/Manoj-gowra/react-testing/gh-pages/static/media/${res.default.split('/').slice(-1)[0]}`).then(res => res.text()).then(res => metadataParser(res)).then(res => setTest(test => [...test, res]))
+                    fetch(`https://raw.githubusercontent.com/Manoj-gowra/react-blog/gh-pages/static/media/${res.default.split('/').slice(-1)[0]}`).then(res => res.text()).then(res => metadataParser(res)).then(res => setTest(test => [...test, res]))
                 }).catch(err => console.log(err))
         })
 

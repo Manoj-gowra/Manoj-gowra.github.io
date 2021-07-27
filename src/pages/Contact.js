@@ -9,7 +9,7 @@ const Contact = () => {
     useEffect(() => {
         import('../Markdown/contact/contact.md').then(res => {
             // console.log(res.default)
-            fetch(`https://raw.githubusercontent.com/Manoj-gowra/react-testing/gh-pages/static/media/${res.default.split('/').slice(-1)[0]}`).then(res =>
+            fetch(`https://raw.githubusercontent.com/Manoj-gowra/react-blog/gh-pages/static/media/${res.default.split('/').slice(-1)[0]}`).then(res =>
                 res.text()
             ).then(res => metadataParser(res)).then(res => setAbout(res)).catch(error => console.log(error))
         })
