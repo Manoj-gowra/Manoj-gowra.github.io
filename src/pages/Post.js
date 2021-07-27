@@ -11,7 +11,7 @@ const Post = (props) => {
     useEffect(() => {
         import(`../Markdown/${post_id}.md`)
             .then(res => {
-                fetch(`https://raw.githubusercontent.com/Manoj-gowra/react-blog/gh-pages/static/media/${res.default.split('/').slice(-1)[0]}`).then(res => res.text()).then(res => metadataParser(res)).then(res => setPost(res))
+                fetch(`https://raw.githubusercontent.com/Manoj-gowra/react-testing/gh-pages/static/media/${res.default.split('/').slice(-1)[0]}`).then(res => res.text()).then(res => metadataParser(res)).then(res => setPost(res))
             })
     }, [post_id])
     // console.log(post)
