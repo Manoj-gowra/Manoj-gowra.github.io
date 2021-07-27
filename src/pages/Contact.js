@@ -18,7 +18,7 @@ const Contact = () => {
 
     return (
         <div>
-            <h2>Contact</h2>
+            <h2>Contact me</h2>
             <div className="container">
                 <Markdown rehypePlugins={[rehypeRaw]} children={result.content} escapeHtml={false} />
             </div>
