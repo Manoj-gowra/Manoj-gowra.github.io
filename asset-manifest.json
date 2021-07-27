@@ -2,13 +2,13 @@
   "files": {
     "static/js/0.d91f21fa.chunk.js": "/react-testing/static/js/0.d91f21fa.chunk.js",
     "static/js/0.d91f21fa.chunk.js.map": "/react-testing/static/js/0.d91f21fa.chunk.js.map",
-    "static/js/1.03a70450.chunk.js": "/react-testing/static/js/1.03a70450.chunk.js",
-    "static/js/1.03a70450.chunk.js.map": "/react-testing/static/js/1.03a70450.chunk.js.map",
+    "static/js/1.7c2c5484.chunk.js": "/react-testing/static/js/1.7c2c5484.chunk.js",
+    "static/js/1.7c2c5484.chunk.js.map": "/react-testing/static/js/1.7c2c5484.chunk.js.map",
     "main.css": "/react-testing/static/css/main.44d6671c.chunk.css",
-    "main.js": "/react-testing/static/js/main.c3501a57.chunk.js",
-    "main.js.map": "/react-testing/static/js/main.c3501a57.chunk.js.map",
-    "runtime-main.js": "/react-testing/static/js/runtime-main.1dbe8bf9.js",
-    "runtime-main.js.map": "/react-testing/static/js/runtime-main.1dbe8bf9.js.map",
+    "main.js": "/react-testing/static/js/main.02155b1b.chunk.js",
+    "main.js.map": "/react-testing/static/js/main.02155b1b.chunk.js.map",
+    "runtime-main.js": "/react-testing/static/js/runtime-main.8989b175.js",
+    "runtime-main.js.map": "/react-testing/static/js/runtime-main.8989b175.js.map",
     "static/js/4.79314d48.chunk.js": "/react-testing/static/js/4.79314d48.chunk.js",
     "static/js/4.79314d48.chunk.js.map": "/react-testing/static/js/4.79314d48.chunk.js.map",
     "static/js/5.a9824106.chunk.js": "/react-testing/static/js/5.a9824106.chunk.js",
@@ -24,14 +24,14 @@
     "static/media/Tic-Tac-Toe.md": "/react-testing/static/media/Tic-Tac-Toe.d79c63e9.md",
     "static/media/Zippy webpage design.md": "/react-testing/static/media/Zippy webpage design.3bd26167.md",
     "static/media/about.md": "/react-testing/static/media/about.5b67f64d.md",
-    "static/media/contact.md": "/react-testing/static/media/contact.51db90f3.md",
+    "static/media/contact.md": "/react-testing/static/media/contact.c5be36a6.md",
     "static/media/hello.md": "/react-testing/static/media/hello.e9caa70c.md",
     "static/media/manoj_g.eb0f42b8.jpeg": "/react-testing/static/media/manoj_g.eb0f42b8.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1dbe8bf9.js",
+    "static/js/runtime-main.8989b175.js",
     "static/js/4.79314d48.chunk.js",
     "static/css/main.44d6671c.chunk.css",
-    "static/js/main.c3501a57.chunk.js"
+    "static/js/main.02155b1b.chunk.js"
   ]
 }
