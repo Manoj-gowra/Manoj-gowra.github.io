@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import metadataParser from 'markdown-yaml-metadata-parser'
 import { Link } from 'react-router-dom';
-import Markdown from 'react-markdown';
 
 const Projects = () => {
     const MarkdownContext = require.context('../Markdown', false, /\.md$/);
