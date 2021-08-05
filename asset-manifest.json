@@ -5,8 +5,8 @@
     "static/js/1.511dfba0.chunk.js": "/static/js/1.511dfba0.chunk.js",
     "static/js/1.511dfba0.chunk.js.map": "/static/js/1.511dfba0.chunk.js.map",
     "main.css": "/static/css/main.10e713de.chunk.css",
-    "main.js": "/static/js/main.86a3120a.chunk.js",
-    "main.js.map": "/static/js/main.86a3120a.chunk.js.map",
+    "main.js": "/static/js/main.111b157d.chunk.js",
+    "main.js.map": "/static/js/main.111b157d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4a611a1b.js",
     "runtime-main.js.map": "/static/js/runtime-main.4a611a1b.js.map",
     "static/js/4.8ab1405b.chunk.js": "/static/js/4.8ab1405b.chunk.js",
@@ -16,13 +16,13 @@
     "index.html": "/index.html",
     "static/css/main.10e713de.chunk.css.map": "/static/css/main.10e713de.chunk.css.map",
     "static/js/4.8ab1405b.chunk.js.LICENSE.txt": "/static/js/4.8ab1405b.chunk.js.LICENSE.txt",
-    "static/media/E-Commerce auction web application.md": "/static/media/E-Commerce auction web application.59f6d64b.md",
-    "static/media/Face Recognition Attendance System.md": "/static/media/Face Recognition Attendance System.98bb5f4a.md",
-    "static/media/Mail.md": "/static/media/Mail.3db4b85c.md",
-    "static/media/React web app.md": "/static/media/React web app.9a5563ad.md",
-    "static/media/Social Network.md": "/static/media/Social Network.ce0b10fa.md",
-    "static/media/Tic-Tac-Toe.md": "/static/media/Tic-Tac-Toe.d79c63e9.md",
-    "static/media/Zippy webpage design.md": "/static/media/Zippy webpage design.3bd26167.md",
+    "static/media/E-Commerce auction web application.md": "/static/media/E-Commerce auction web application.2a8d0ae2.md",
+    "static/media/Face Recognition Attendance System.md": "/static/media/Face Recognition Attendance System.0337221f.md",
+    "static/media/Mail.md": "/static/media/Mail.ad20dee6.md",
+    "static/media/React web app.md": "/static/media/React web app.066f7ade.md",
+    "static/media/Social Network.md": "/static/media/Social Network.bd57ecb8.md",
+    "static/media/Tic-Tac-Toe.md": "/static/media/Tic-Tac-Toe.3c8cf069.md",
+    "static/media/Zippy webpage design.md": "/static/media/Zippy webpage design.4c5c2143.md",
     "static/media/about.md": "/static/media/about.5b67f64d.md",
     "static/media/contact.md": "/static/media/contact.c5be36a6.md",
     "static/media/manoj_g.eb0f42b8.jpeg": "/static/media/manoj_g.eb0f42b8.jpeg"
@@ -31,6 +31,6 @@
     "static/js/runtime-main.4a611a1b.js",
     "static/js/4.8ab1405b.chunk.js",
     "static/css/main.10e713de.chunk.css",
-    "static/js/main.86a3120a.chunk.js"
+    "static/js/main.111b157d.chunk.js"
   ]
 }
